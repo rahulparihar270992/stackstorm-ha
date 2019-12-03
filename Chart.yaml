@@ -1,13 +1,13 @@
 apiVersion: v1
 # Update StackStorm version here to rely on other Docker images tags
-appVersion: 3.2dev
+appVersion: 3.2Dev
 name: stackstorm-ha
 version: 0.23.0
 description: StackStorm K8s Helm Chart, optimized for running StackStorm in HA environment.
 home: https://stackstorm.com/#product
 icon: https://avatars1.githubusercontent.com/u/4969009
 source:
-  - https://github.com/stackstorm/stackstorm-ha
+  - https://github.com/rahulparihar270992/stackstorm-ha
 keywords:
   - st2
   - stackstorm
@@ -18,10 +18,10 @@ keywords:
   - IFTTT
   - HA
 maintainers:
-  - name: Eugen C.
-    url: https://github.com/armab
-  - name: Warren Van Winckel
-    url: https://github.com/warrenvw
+  - name: rahul parihar
+    url: https://github.com/rahulparihar270992
+  - name: rahul parihar
+    url: https://github.com/rahulparihar270992
 details:
   This Helm chart is a fully installable app that codifies StackStorm cluster optimized for HA and K8s environment.
   By default FOSS community version of st2 will be installed. Enterprise version can be enabled as an option.
